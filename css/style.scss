@@ -1,5 +1,5 @@
-@import "./components";
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap");
+@import './components';
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
 *,
 *::before,
 *::after {
@@ -25,7 +25,7 @@ $lightgrey: #888;
 $service-clr: #fde7df;
 
 //font family
-$font: "Be Vietnam", sans-serif;
+$font: 'Be Vietnam', sans-serif;
 
 /*BASE STYLES*/
 body {
@@ -159,7 +159,7 @@ blockquote {
 
       &::before,
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         width: 100%;
         height: 100%;
@@ -398,12 +398,12 @@ blockquote {
     @include flexCenter(space-between);
 
     .btn,
-    input[type="email"] {
+    input[type='text'] {
       border: 0;
       outline: none;
     }
 
-    input[type="email"] {
+    input[type='text'] {
       border-radius: 4rem;
       height: 2.5rem;
       padding: 0.7rem 2rem 0.7rem 1rem;
@@ -506,7 +506,7 @@ blockquote {
   //FOOTER SECTION
   #footer-section {
     .form {
-      input[type="email"] {
+      input[type='text'] {
         padding-left: 0;
         padding-right: 0;
       }

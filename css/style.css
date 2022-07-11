@@ -176,6 +176,7 @@ blockquote {
 }
 #header-section .hero-section .img {
   margin-bottom: 1rem;
+  z-index: 1;
 }
 #header-section .hero-section .hero-content {
   position: relative;

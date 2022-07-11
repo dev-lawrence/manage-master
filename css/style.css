@@ -36,7 +36,7 @@ li {
 h1,
 h2,
 h3 {
-  color: #242d52;
+  color: hsl(228deg, 39%, 23%);
   text-align: center;
   font-weight: 700;
   line-height: 1.2;
@@ -57,17 +57,16 @@ blockquote {
 .cta {
   text-transform: capitalize;
   color: #fff;
-  background-color: #f25f3a;
+  background-color: hsl(12deg, 88%, 59%);
   font-weight: 500;
   padding: 0.7rem 1.5rem;
   border-radius: 4rem;
-  color: #fafafa;
-  box-shadow: 0px 20px 20px -10px #f38468;
+  color: hsl(0deg, 0%, 98%);
+  box-shadow: 0px 20px 20px -10px hsl(12deg, 85%, 68%);
   transition: background-color 0.2s ease-in;
 }
-
 .cta:hover {
-  background-color: #f18165;
+  background-color: hsl(12deg, 83%, 67%);
 }
 
 /*HEADER SECTION*/
@@ -75,7 +74,6 @@ blockquote {
   position: relative;
   overflow: hidden;
 }
-
 #header-section .bg-img {
   background-image: url(../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
@@ -87,61 +85,50 @@ blockquote {
   top: -10rem;
   right: -5rem;
 }
-
 #header-section .logo {
   position: absolute;
   top: 2.1rem;
 }
-
 #header-section .content {
   padding-top: 2rem;
   position: relative;
 }
-
 #header-section .d-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 #header-section #nav-toggle:checked ~ nav {
   opacity: 1;
   visibility: visible;
   transform: translateY(10px);
 }
-
 #header-section #nav-toggle:checked ~ .toggle .nav-icon {
   background-color: transparent;
 }
-
 #header-section #nav-toggle:checked ~ .toggle .nav-icon::before {
   transform: rotate(-45deg);
   top: 0;
 }
-
 #header-section #nav-toggle:checked ~ .toggle .nav-icon::after {
   transform: rotate(45deg);
   top: 0;
 }
-
 #header-section .nav-toggle {
   display: none;
 }
-
 #header-section .toggle {
   position: absolute;
   top: 1.5rem;
   right: 0;
   cursor: pointer;
 }
-
 #header-section .toggle .nav-icon {
   background-color: #000;
   position: relative;
   width: 1.625rem;
   height: 2.5px;
 }
-
 #header-section .toggle .nav-icon::before, #header-section .toggle .nav-icon::after {
   content: "";
   position: absolute;
@@ -150,15 +137,12 @@ blockquote {
   background-color: #000;
   transition: all 0.2s ease-in;
 }
-
 #header-section .toggle .nav-icon::before {
   top: 6px;
 }
-
 #header-section .toggle .nav-icon::after {
   bottom: 6px;
 }
-
 #header-section .nav {
   position: absolute;
   z-index: 10;
@@ -167,55 +151,45 @@ blockquote {
   opacity: 0;
   visibility: hidden;
   transform: translateY(0);
-  transition: opacity 0.2s ease-in, visibility 0.2s ease-in, transform 0.2s ease-in;
+  transition: opacity 0.2s ease-in, visibility 0.2s ease-in, transform 0.2s ease-in;
 }
-
 #header-section .nav .nav-menu {
   padding: 2rem 0rem;
   text-align: center;
   background-color: #fff;
-  border: 1px solid #242d52;
+  border: 1px solid hsl(228deg, 39%, 23%);
 }
-
 #header-section .nav li:not(:last-child) {
   padding-bottom: 1rem;
 }
-
 #header-section .nav a {
   text-transform: capitalize;
-  color: #242d52;
+  color: hsl(228deg, 39%, 23%);
   font-weight: 700;
   transition: color 0.2s ease-in-out;
 }
-
 #header-section .nav a:hover {
   color: #888;
 }
-
 #header-section .nav-menu--sec {
   visibility: hidden;
 }
-
 #header-section .hero-section .img {
   margin-bottom: 1rem;
 }
-
 #header-section .hero-section .hero-content {
   position: relative;
   max-width: 90%;
   margin: 0 auto 9rem;
   text-align: center;
 }
-
 #header-section .hero-section .hero-content h1 {
-  font-size: clamp(2rem, calc(5vw + 1rem), 3rem);
+  font-size: clamp(2rem, 5vw + 1rem, 3rem);
   margin-bottom: 1rem;
 }
-
 #header-section .hero-section .hero-content p {
   margin-bottom: 1.5rem;
 }
-
 #header-section .hero-section .hero-content .hero-img {
   position: absolute;
   height: 300px;
@@ -228,25 +202,20 @@ blockquote {
 .section-a .container {
   padding-right: 0;
 }
-
 .section-a .about {
   text-align: center;
   margin-bottom: 5rem;
   padding-right: 1rem;
 }
-
 .section-a .about h2 {
   margin-bottom: 1rem;
 }
-
 .section-a .about img {
   display: none;
 }
-
 .section-a .services .row:not(:last-child) {
   margin-bottom: 3rem;
 }
-
 .section-a .services h3 {
   position: relative;
   background-color: #fde7df;
@@ -257,14 +226,13 @@ blockquote {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-
 .section-a .services span {
   position: absolute;
   top: 0;
   left: 0;
   line-height: 1.8rem;
   color: #fff;
-  background-color: #f25f3a;
+  background-color: hsl(12deg, 88%, 59%);
   height: 100%;
   width: 15%;
   border-radius: 4rem;
@@ -274,54 +242,44 @@ blockquote {
 .section-b {
   padding: 5rem 0 0;
 }
-
 .section-b h2 {
   margin-bottom: 3rem;
 }
-
 .section-b .content {
   text-align: center;
 }
-
 .section-b .cards {
   padding: 5rem 0 0;
 }
-
 .section-b .card {
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
   padding: 2rem 1rem;
   transition: background-color, 0.2s ease-in-out;
 }
-
 .section-b .card:hover {
   background-color: #fde7df;
 }
-
 .section-b .card img {
   margin: -5rem auto 2rem;
 }
-
 .section-b .card h3 {
   margin-bottom: 1rem;
 }
-
 .section-b .m-b {
   margin-bottom: 7rem;
 }
-
 .section-b .card-btn {
   margin-top: 2rem;
 }
 
 /*SECTION C*/
 .section-c {
-  background-color: #f25f3a;
+  background-color: hsl(12deg, 88%, 59%);
   position: relative;
   margin-top: 3rem;
   text-align: center;
   z-index: 999;
 }
-
 .section-c .content {
   min-height: 17.875rem;
   display: flex;
@@ -329,11 +287,9 @@ blockquote {
   align-items: center;
   justify-content: center;
 }
-
 .section-c h2 {
   font-size: 2rem;
 }
-
 .section-c .img {
   background-image: url(../images/bg-simplify-section-mobile.svg);
   background-repeat: no-repeat;
@@ -345,107 +301,88 @@ blockquote {
   left: 0;
   z-index: -1;
 }
-
 .section-c h2 {
   color: #fff;
   margin-bottom: 2rem;
 }
-
 .section-c .team-btn {
   background-color: #fff;
-  color: #f25f3a;
+  color: hsl(12deg, 88%, 59%);
   box-shadow: none;
 }
-
 .section-c .team-btn:hover {
-  background-color: #f1eae9;
+  background-color: hsl(7deg, 22%, 93%);
 }
 
 /*FOOTER SECTION*/
 #footer-section {
-  background-color: #1d1e25;
+  background-color: hsl(233deg, 12%, 13%);
   padding: 2rem 0;
   text-align: center;
 }
-
 #footer-section .form {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 #footer-section .form .btn,
-#footer-section .form input[type="email"] {
+#footer-section .form input[type=text] {
   border: 0;
   outline: none;
 }
-
-#footer-section .form input[type="email"] {
+#footer-section .form input[type=text] {
   border-radius: 4rem;
   height: 2.5rem;
   padding: 0.7rem 2rem 0.7rem 1rem;
 }
-
 #footer-section .form ::placeholder {
   font-family: "Be Vietnam", sans-serif;
 }
-
 #footer-section .form .btn {
   cursor: pointer;
   box-shadow: none;
 }
-
 #footer-section .menu {
   padding: 3rem 0;
 }
-
 #footer-section .menu .nav-list li {
   margin-bottom: 0.5rem;
   text-align: left;
 }
-
 #footer-section .menu .nav-list a {
   color: #fff;
   text-transform: capitalize;
   transition: color 0.2s ease-in;
 }
-
 #footer-section .menu .nav-list a:hover {
-  color: #f25f3a;
+  color: hsl(12deg, 88%, 59%);
 }
-
 #footer-section .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 #footer-section .social-links {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
 }
-
 #footer-section .social-links i {
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
-
 #footer-section .social-links i:not(:last-child) {
   margin-right: 2rem;
 }
-
 #footer-section .social-links i:hover {
-  color: #f25f3a;
+  color: hsl(12deg, 88%, 59%);
 }
-
 #footer-section .logo {
   margin-bottom: 4rem;
 }
-
 #footer-section p {
   color: #888;
 }
@@ -454,26 +391,24 @@ blockquote {
 /***MOBILES****/
 @media (max-width: 20rem) {
   .section-a .services h3,
-  .section-a .services span {
+.section-a .services span {
     font-size: 0.9rem;
   }
 }
-
 @media (max-width: 17.5rem) {
   p,
-  a,
-  blockquote {
+a,
+blockquote {
     font-size: 0.8rem;
   }
   .section-a .services h3 {
     font-size: 0.8rem;
   }
-  #footer-section .form input[type="email"] {
+  #footer-section .form input[type=text] {
     padding-left: 0;
     padding-right: 0;
   }
 }
-
 /*****TABLETS****/
 @media (min-width: 36rem) {
   .container {
@@ -481,7 +416,6 @@ blockquote {
     margin: 0 auto;
   }
 }
-
 @media (min-width: 48rem) {
   .container {
     width: 48rem;
@@ -631,7 +565,7 @@ blockquote {
     grid-column: 2/3;
   }
   #footer-section .menu,
-  #footer-section .d-flex {
+#footer-section .d-flex {
     margin-bottom: 4rem;
   }
   #footer-section .flex {
@@ -656,7 +590,6 @@ blockquote {
     align-self: flex-end;
   }
 }
-
 @media (min-width: 64rem) {
   .container {
     width: 62.25rem;
@@ -729,7 +662,7 @@ blockquote {
     margin-left: 10rem;
   }
   #footer-section .menu,
-  #footer-section .d-flex {
+#footer-section .d-flex {
     margin-bottom: 0rem;
   }
   #footer-section p {
@@ -737,7 +670,6 @@ blockquote {
     justify-self: start;
   }
 }
-
 @media (min-width: 75rem) {
   .container {
     width: 68.75rem;

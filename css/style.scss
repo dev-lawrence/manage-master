@@ -399,12 +399,12 @@ blockquote {
     @include flexCenter(space-between);
 
     .btn,
-    input[type='text'] {
+    input[type='email'] {
       border: 0;
       outline: none;
     }
 
-    input[type='text'] {
+    input[type='email'] {
       border-radius: 4rem;
       height: 2.5rem;
       padding: 0.7rem 2rem 0.7rem 1rem;
@@ -507,7 +507,7 @@ blockquote {
   //FOOTER SECTION
   #footer-section {
     .form {
-      input[type='text'] {
+      input[type='email'] {
         padding-left: 0;
         padding-right: 0;
       }

@@ -327,11 +327,11 @@ blockquote {
   align-items: center;
 }
 #footer-section .form .btn,
-#footer-section .form input[type=text] {
+#footer-section .form input[type=email] {
   border: 0;
   outline: none;
 }
-#footer-section .form input[type=text] {
+#footer-section .form input[type=email] {
   border-radius: 4rem;
   height: 2.5rem;
   padding: 0.7rem 2rem 0.7rem 1rem;
@@ -405,7 +405,7 @@ blockquote {
   .section-a .services h3 {
     font-size: 0.8rem;
   }
-  #footer-section .form input[type=text] {
+  #footer-section .form input[type=email] {
     padding-left: 0;
     padding-right: 0;
   }
